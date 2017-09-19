@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="4de74292-e16e-4319-bfc7-9ac5707d5bff" name="LemonadeStandDiagram" linkedPackageId="19689cc1-66d5-4c13-bfde-824902b89af8" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="051168a8-c32a-4025-b91e-766cce7e9695">
+      <profileInstance Id="db209b33-988a-4991-a8c1-3aaa9ffc6af4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="036fdb0e-b1ed-4009-bbc2-a7a9621e0f29">
+      <profileInstance Id="60ee9271-af14-4a56-bd78-66e0b889b090" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="433ef8a4-4bc8-47a5-84cf-4a30f40bef2d" name="Wallet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f65fe642-f2a1-45ac-aea4-57b436296bf7" />
+        <ownedAttributesInternal>
+          <property Id="4661f1ce-a949-4bb7-881c-fb98f68eca40" name="balance" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2b20739e-66c2-443f-8adf-be6feff107e6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="acd12f9b-874c-4967-8297-611fbbc40f6a" name="Subtract Money" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="768c24b5-d466-48cb-ba82-487995b66eef" />
+          </operation>
+          <operation Id="a9a7e731-4667-47b7-9fe1-32472d08408a" name="Add Money" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="71ba13a8-f55f-423e-b567-5479c1b9df4b" />
+          </operation>
+          <operation Id="fc2bbcda-401b-4531-9b2f-5b7f397415a9" name="Get Balance" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="41e17fa7-9309-4134-9ac6-b127759d78bf" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e6c34dc7-5eb1-42d2-964b-7c4386bcac17" name="Weather" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8bd94d0e-f026-4b87-b7da-d4b350056eeb" />
+        <ownedAttributesInternal>
+          <property Id="fd347ded-737d-4c4f-b16c-526fbe0bbe05" name="Temperature" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7511027-56fb-4247-a6e9-989bae160356" />
+          </property>
+          <property Id="2d11126b-fece-456d-94f0-5c040a555b25" name="Conditions" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4ccca713-d617-4509-b2b0-1e6c3817efaf" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="03d34e0a-7dac-48fc-801f-02ef39b2ca0f" name="Demand" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6f27b215-d0ec-47a1-96cd-1179abeeb09f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="19689cc1-66d5-4c13-bfde-824902b89af8" name="LemonadeStandModelingProject1">
+    <elementDefinition Id="dc2a9d08-8fc8-4edc-97c5-cb02696b7b3f" />
+  </package>
+</logicalClassDesignerModel>

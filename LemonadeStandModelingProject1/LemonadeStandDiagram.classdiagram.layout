@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LemonadeStandDiagram">
+  <logicalClassDesignerModelMoniker Id="4de74292-e16e-4319-bfc7-9ac5707d5bff" />
+  <nestedChildShapes>
+    <classShape Id="7917d6cf-31a1-4f70-876c-9ea9542b246a" absoluteBounds="2.75, 1.5, 1.5, 1.5429687152306237" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="433ef8a4-4bc8-47a5-84cf-4a30f40bef2d" LastKnownName="Wallet" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="81081a6f-4134-416a-8f24-d728ec9489e3" absoluteBounds="2.765, 1.8900000000000001, 1.4700000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="6802cef4-6d77-4999-b5ae-00884bb66139" absoluteBounds="2.765, 2.2613281125823654, 1.4700000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c9d51d9-f2b4-4ae1-ac05-9a74d250a282" absoluteBounds="6.875, 1.75, 1.5, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="e6c34dc7-5eb1-42d2-964b-7c4386bcac17" LastKnownName="Weather" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="9b671499-2250-4469-9ad2-4b4a58ca3cfe" absoluteBounds="6.89, 2.14, 1.4700000000000002, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="20b1d135-8f0b-4da5-98bb-ede45803aa8b" absoluteBounds="6.89, 2.671484357615312, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
